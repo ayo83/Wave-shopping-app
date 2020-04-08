@@ -1,0 +1,35 @@
+{
+  "name": "wave-shopping-app",
+  "version": "1.0.0",
+  "description": "An E-commerce web appliation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayo83/Wave-shopping-app.git"
+  },
+  "author": "Ayomikun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayo83/Wave-shopping-app/issues"
+  },
+  "homepage": "https://github.com/ayo83/Wave-shopping-app#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.21.0",
+    "concurrently": "^5.1.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.7",
+    "multer": "^1.4.2",
+    "winston": "^3.2.1"
+  }
+}
