@@ -8,9 +8,9 @@ if (!envFound) {
 }
 module.exports = {
   port: process.env.PORT,
-//   databaseURL: process.env.DATABASE_URL,
-//   databaseURI: process.env.DATABASE_URI,
-//   secretOrKey: process.env.SECRET_KEY,
+  databaseURL: process.env.DATABASE_URL,
+  databaseURI: process.env.DATABASE_URI,
+  secretOrKey: process.env.SECRET_KEY,
   logs: {
     level: process.env.LOG_LEVEL || 'silly',
   },
